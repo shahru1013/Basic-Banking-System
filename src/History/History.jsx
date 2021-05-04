@@ -75,15 +75,3 @@ seperateHistory(data){
 }
 
 export default History;
-
-// I just complete my Task-1, "Basic Banking System" given by The Sparks Foundation Web Development Internship program. Here's given some basic tasks to do like show all users information from database , transfer balance between users and saved transaction history etc. 
-
-
-
-// Here I'm using , ReactJs, NodeJs with Express and MySql Database.
-
-
-
-// #internship #webdevelopment #reactjsdevelopment #javascript #programming #basicbankingsystem #mysql 
-
-//naimul@ibos.io
