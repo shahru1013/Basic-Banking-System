@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  overflow: visible;
+  height: 100%;
+  width: 100%;
+}
+.app_body{
+  
+}
+.bg_pic{
+  height: 100vh;
+  background-image: url("./Images/coin_img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100vw 100vh;
+  filter: blur(2px);
+  -webkit-filter: blur(4px);
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}

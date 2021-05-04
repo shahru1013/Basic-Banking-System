@@ -1,0 +1,187 @@
+.transfer_div{
+   height: 100vh;
+   width: 100%;
+   position: relative;
+}
+.transfer_div .loading_div{
+  margin-top: 0px;
+}
+.transfer_sec{
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+}
+.main_content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left_sec{
+    width: 30%;
+    float: left;
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    bottom: 10px;
+    overflow-y: scroll;
+}
+.left_sec::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .left_sec::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .left_sec::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .left_sec::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.right_sec{
+    width: 67%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    float: right;
+    margin-right: 20px;
+    background-color: rgba(0,0,0.7,0.4);
+}
+
+.sender_selection{
+
+}
+.user_box{
+  width: 80%;
+ margin-left: 16%;
+
+  margin-top: 20px;
+  background-color: aqua;
+ 
+}
+
+.user_box p{
+    font-size: 19px;
+    color: whitesmoke;
+    
+}
+.from_user{
+  float: left;
+  width: 50%;
+
+}
+.to_user{
+  float: right;
+  width: 50%;
+}
+
+.user_box select{
+    width: 70%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border-style: none;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,60,0.5);
+    outline: none;
+    font-size: 16px;
+    
+}
+
+/* input
+ */
+.to_user input{
+  width: 50%;
+  height: 30px;
+  margin-top: 15px;
+  font-size: 17px;
+  background-color: whitesmoke;
+  border:1px solid rgb(207, 204, 204);
+  border-radius: 5px;
+  text-indent: 5px;
+  outline: none;
+  box-shadow: 0px 3px 10px 0px rgba(0,0,60,0.5);
+}
+
+.user_box option{
+    color: rgb(39, 30, 30);
+    background-color: rgb(202, 202, 147);
+}
+
+.send_bal{
+    margin-left: auto;
+}
+.to_user button{
+    height: 35px;
+    width: 70%;
+    text-align: center;
+    background-color: rgba(93, 104, 101, 0.5);
+    border:0px solid rgb(90, 219, 155);
+    margin-right: 5px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 8, 6,1.9);
+    border-radius: 4px;
+    font-size: 17px;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+.to_user button:hover{
+  cursor: pointer;
+}
+.to_user button:focus{
+  background-color: rgb(202, 202, 147);
+  color: black;
+}
+
+.arrow h1{
+    margin-left: 31.2%;
+    position: absolute;
+    font-size: 4.6vw;
+    color: rgb(247, 233, 216);
+    
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:1200px){
+  .user_box{
+     width: 100%;
+     margin-left: 5%;
+  }
+  .from_user{
+     width: 45%;
+  }
+  .to_user{
+    width: 45%;
+  }
+  .user_box select{
+     width: 75%;
+  }
+  .to_user button{
+    width: 75%;
+  }
+  .arrow h1{
+    padding-left:0%;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .left_sec{
+    display: none;
+  }
+  .right_sec{
+    width: 100%;
+  }
+  .arrow h1{
+    text-align: center;
+    margin-left: 44%;
+    font-size: 7vw;
+  }
+ .navbar_sec{
+   
+ }
+}

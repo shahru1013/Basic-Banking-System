@@ -1,0 +1,18 @@
+.history_div{
+    height: 100vh;
+    position: relative;
+}
+
+.history_sec{
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.history_div .loading_div{
+    margin-top: 0;
+}
+
+.history_sec table tr{
+   
+}
